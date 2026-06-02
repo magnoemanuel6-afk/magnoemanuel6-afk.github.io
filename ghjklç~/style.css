@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to bottom, #B5FFD9, #FFF2F9);
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+form {
+    background: #F2FFFF;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #005927;
+    margin-bottom: 5px;
+}
+
+p.subtitulo {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #155724;
+}
+
+.campo-grupo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="datetime-local"],
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+small {
+    color: #666;
+    margin-top: 4px;
+    display: block;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#valor-experiencia {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #63FFAC;
+    color: #005927;
+    text-align: center;
+}
