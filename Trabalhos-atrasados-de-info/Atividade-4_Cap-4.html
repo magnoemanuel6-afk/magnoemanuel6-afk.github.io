@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Multimídia — Cap. 4 / Ativ. 4</title>
+</head>
+<body>
+
+    <header>
+        <h1>Recursos Multimídia</h1>
+        <p>Capítulo 4 — Atividade 4</p>
+    </header>
+
+    <main>
+
+        <!-- Bloco 1 - Vídeo com legenda e poster -->
+        <figure>
+            <video
+                controls
+                width="800"
+                height="450"
+                poster="poster-aula.jpg"
+                preload="metadata">
+
+                <source src="videos/aula-html.mp4" type="video/mp4">
+                <source src="videos/aula-html.webm" type="video/webm">
+
+                <track
+                    src="legendas/aula-html.vtt"
+                    kind="subtitles"
+                    srclang="pt"
+                    label="Português"
+                    default>
+
+                <p>
+                    Seu navegador não suporta vídeos HTML5.
+                    <a href="videos/aula-html.mp4">Baixar vídeo</a>.
+                </p>
+            </video>
+
+            <figcaption>
+                Aula introdutória sobre HTML5 com legendas em português.
+                Fonte: Material didático do curso.
+            </figcaption>
+        </figure>
+
+        <!-- Bloco 2 - Áudio com fallback -->
+        <figure>
+            <audio controls preload="metadata">
+                <source src="audios/podcast-html.mp3" type="audio/mpeg">
+                <source src="audios/podcast-html.ogg" type="audio/ogg">
+
+                <p>
+                    Seu navegador não suporta áudio HTML5.
+                    <a href="audios/podcast-html.mp3">Baixar áudio</a>.
+                </p>
+            </audio>
+
+            <figcaption>
+                Episódio: Introdução ao HTML5 —
+                <a href="transcricao.html">Ler transcrição</a>
+            </figcaption>
+        </figure>
+
+        <!-- Bloco 3 - Vídeo externo do YouTube -->
+        <figure>
+            <iframe
+                width="800"
+                height="450"
+                src="https://www.youtube-nocookie.com/embed/nPEpaft1y1k"
+                title="Vídeo educacional sobre HTML e desenvolvimento web"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+
+            <figcaption>
+                Vídeo educacional hospedado no YouTube. Canal e plataforma:
+                YouTube.
+            </figcaption>
+        </figure>
+
+        <!-- Bloco 4 - Imagem responsiva com picture -->
+        <figure>
+            <picture>
+                <source
+                    media="(min-width: 768px)"
+                    srcset="img/banner-wide.jpg">
+
+                <img
+                    src="img/banner-mobile.jpg"
+                    alt="Banner promocional do ambiente virtual de aprendizagem"
+                    width="800"
+                    height="300">
+            </picture>
+
+            <figcaption>
+                Banner ilustrativo do ambiente virtual de aprendizagem,
+                adaptado para diferentes tamanhos de tela.
+            </figcaption>
+        </figure>
+
+    </main>
+
+    <footer>
+        <p>
+            Nome: Seu Nome<br>
+            Matrícula: 00000000<br>
+            Data: 09/06/2026
+        </p>
+    </footer>
+
+</body>
+</html>
