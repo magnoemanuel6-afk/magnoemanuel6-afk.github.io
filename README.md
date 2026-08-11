@@ -1,0 +1,105 @@
+   <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(96, 0, 185);
+            text-align: center;
+        }
+
+        .topo{
+
+        }
+      
+        .text-Left{
+            text-align:left;
+        }
+
+        .color-border{
+            background-color: rgb(129, 0, 250);
+        color:black;
+        }
+
+        p{
+            color:rgb(6, 36, 0);
+        }
+        
+        .style-color1{
+            color:yellowgreen;
+        }
+
+        h1{
+         background-color: rgb(129, 0, 250);
+        color:rgb(8, 161, 8)
+        }
+
+        .style-color2{
+            color:rgb(168, 76, 76);
+        }
+
+        .color-border3{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+   <h1>Aluno:  <small>Emanuel Magno Tavares Lopes da Silva</small></h1>
+       <h2 class="style-color2">serie:<i>(921-C). Itegrado em:(Desenvolvimento de sistemas)</h2>
+     
+     <img style="text-align: center;" height="200" src="https://i.imgur.com/Bdzpet0.jpeg">
+    
+     <br>
+         <div class="text-Left">
+     <h2 class="color-border">data de nascimento:(07/06/2010)</h2>
+    <h2 style="color:greenyellow">descrição do aluno:</h2><p style="color:white">Olá eu sou Emanuel.Gosto bastante de praticar esportes
+como:Capoeira,Futsal e Volei ball.Não sou muito fã de livros 
+mais goto muito de quadrinhos.tambem gosto de brincar com meus
+bichinhos de estimação,(cachorro e gato).E não muito relevante,
+gosto de jogar video games e asitir televisão.Quero ser um profisional nesta area.</p>
+    
+
+    <h2 class="color-border">Conhecimentos Gerais</h2>
+<ul>
+      <div class="style-color1">
+    <li>:Aprendi o basico do html</li>
+        <li>:Aprendi o basico de css</li>
+        <li>:O basico de um site</li>
+        <li>:O basico de javaScript</li>
+    </ul>
+</div>
+     <p style="color:white"><b>Descrição do curso</b>:(é um curso voltado pra pessoas que tem interesse na área
+de informatica.Também há tres materias sobre,são;(Fundamentos da informatica,Programação web
+e introdução à programação).</p>
+</div>
+   <div class="color-border3"> <table border:1>
+     <tr>
+        <th>
+        Capitulo: 4
+        </th>
+       
+        <th> <a href="http://www.ifal.edu.br"> <b>Clique Aqui para ifal</b> </a></th>
+          <br>  
+      <td><a href="Trabalhos-atrasados-de-info/Atividade-1_Cap-4.html"> <b>Horarios semanais</b> </a></td>
+          <br>
+      <td><a href="Trabalhos-atrasados-de-info/Atividade-2_Cap-4.html"> <b>Notas bimestrais da Turma</b> </a></td>
+           <br>
+      <td><a href="Trabalhos-atrasados-de-info/Atividade-3_Cap-4.html"> <b>Guia de referencia rapida (web)</b> </a></td>
+           <br>
+      <td><a href="Trabalhos-atrasados-de-info/Atividade-4_Cap-4.html"> <b>Recursos Multimidia</b> </a></td>
+           <br>
+       <th>Capitulo: 5</th>
+      <td><a href="Trabalhos-atrasados-de-info/Atividade-1_Cap-5.html"> <b>Formulario de Contato</b>  </a></td>
+            <br>
+      <td><a href="Trabalhos-atrasados-de-info/Atividade-2_Cap-5.html"> <b>Cadastro do Usuario</b> </a></td>
+            <br>
+      <td><a href="Trabalhos-atrasados-de-info/Atividade-3_Cap-5.html"> <b>Matricula Academica</b> </a></td>
+            <br>
+      <td></td><a href="Trabalhos-atrasados-de-info/atividade-4_Cap-5.html"> <b>Semana de Tecnologia IFAL</b> </a></tr>
+    </tr>      
+    </table> 
+    </div>  
+</body>
+</html>
